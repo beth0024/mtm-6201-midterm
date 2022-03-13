@@ -63,8 +63,15 @@ header {
     text-align: center;
 }
 
+h1 {
+    font-size: 84px;
+    padding-top: 100px;
+}
+
 .subheader {
     color: lightgrey;
+    font-size: 24px;
+    padding: 20px 0;
 }
 
 img {
@@ -73,6 +80,10 @@ img {
 
 nav {
     text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 100px 0;
 }
 
 ul {
@@ -81,6 +92,21 @@ ul {
 
 li {
     display: inline;
+    font-size: 42px;
+    padding: 0 60px;
+}
+
+.products h2 {
+    font-size: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.contact {
+
 }
 
 a:link {
@@ -101,4 +127,10 @@ a:hover {
 a:active {
     color: white;
     text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .products {
+        display: grid;
+    }
 }
