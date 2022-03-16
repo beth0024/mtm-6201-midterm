@@ -99,7 +99,9 @@ li {
 }
 
 .products h2 {
-    font-size: 20px;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 16px;
 }
 
 .logo {
@@ -111,6 +113,16 @@ li {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    text-align: center;
+}
+
+input[type=submit] {
+    background-color: rgb(145, 145, 145);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 a:link {
@@ -139,6 +151,7 @@ a:active {
     .products {
         display: grid;
         grid-template-columns: auto auto auto;
+        text-align: center;
     }
 
     .grid-item1 {
